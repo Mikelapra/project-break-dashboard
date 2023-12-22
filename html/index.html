@@ -4,10 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Break - Dashboard</title>
+    <link rel="stylesheet" href="../estilo.css">
 </head>
-<body>
-
-    
-    <script src="./js/script.js"></script>
+<body id="index">
+    <main id="indexMenu">
+        <div class="izquierda">
+            <section class="enlacesIndex">
+                <div class="lista">
+                    <div class="titulo">
+                        <h2>Añade tu enlace de interés<img src="../icon/enlace.png"></h2>
+                    </div>
+                    <div class="contenedorInput">
+                        <input type="text" id="nombreInput" placeholder="Nombre de tu enlace" required>
+                        <input type="text" id="enlaceInput" placeholder="Pega aquí la URL" required>
+                        <button id="registrarURL" class ="btn-default clip-polygon btn-default span" ><p class="textoBoton">Añadir enlace</p></button>
+                    </div>
+                    <ul id="contenedorLinks"></ul>
+                </div>
+            </section>
+        </div>
+        <div class="derecha">
+            <section class="relojIndex">
+                <div class = "reloj">
+                    <div class="hora">hola</div>
+                    <div class="fecha"></div>
+                </div>
+            </section>
+            <section class = "meteorologiaIndex">
+                <div id="weather" class="weather weather1">
+                    <div id="weatherTop"></div>
+                    <div id="weatherBottom"></div>
+                </div>
+            </section>
+            <section class="generadorIndex">
+                <div class="generadorContraseñas">
+                    <div class ="titulo">
+                        <h2>Crea una contraseña segura<img src="../icon/generador.png"></h2>
+                    </div>
+                    <div class="password">
+                        <label for="length">Numero de caracteres de la Contraseña
+                        <input type="number" id="length" min="12" max="50" value="12"></input></label>
+                        <button type="button" id="botonGenerar" class ="btn-default clip-polygon btn-default span"><p class="textoBoton">Generar Contraseña</p></button>
+                        <div class="resultado"></div>
+                    </div>   
+                    <footer>
+                        <nav>
+                            <a href="reloj.html"><img src="../icon/reloj.png"></a>
+                            <a href="meteorologia.html"><img src="../icon/meteorologia.png"></a>
+                            <a href="generador.html"><img src="../icon/generador.png"></a>
+                            <a href="enlaces.html"><img src="../icon/enlace.png"></a>
+                        </nav>
+                    </footer>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptEnlaces.js"></script>
+    <script src="../js/srciptReloj.js"></script>
+    <script src="../js/scriptMeteorologia.js"></script>
+    <script src="../js/scriptGenerador.js"></script>
 </body>
 </html>

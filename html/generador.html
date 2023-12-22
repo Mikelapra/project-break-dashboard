@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Break - Generador Contraseñas</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h2><img src="../icon/home.png"> Regresar</h2>
+        </a>
+    </header>
+    <main class="main">
+        <div class="generadorContraseñas">
+            <div class ="titulo">
+                <h2>Crea una contraseña segura<img src="../icon/generador.png"></h2>
+            </div>
+            <div class="password">
+                <label for="length">Numero de caracteres de la Contraseña
+                <input type="number" id="length" min="12" max="50" value="12"></input></label>
+                <button type="button" id="botonGenerar" class ="btn-default clip-polygon btn-default span"><p class="textoBoton">Generar Contraseña</p></button>
+                <div class="resultado"></div>
+            </div> 
+            <footer>
+                <nav>
+                    <a href="reloj.html"><img src="../icon/reloj.png"></a>
+                    <a href="meteorologia.html"><img src="../icon/meteorologia.png"></a>
+                    <a href="generador.html"><img src="../icon/generador.png"></a>
+                    <a href="enlaces.html"><img src="../icon/enlace.png"></a>
+                </nav>
+            </footer>
+        </div>
+    </main>
+    <script src="../js/script.js"></script>
+    <script src="../js/scriptGenerador.js"></script>
+</body>
+</html>
