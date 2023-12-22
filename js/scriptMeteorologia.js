@@ -26,7 +26,7 @@ async function estacionMeteorologica () {
             <div class="currentGradrosEIconos">
                 <img class="iconoTiempo" src="http:${current.condition.icon}">
                 <div class="grados">${current.temp_c}</div>
-                <img class="inconoCelcius" src="../icon/celcius.png">
+                <img class="inconoCelcius" src="./icon/celcius.png">
             </div>
             <div class="currentRestoDatos">
                 <ul>

@@ -1,14 +1,14 @@
 const fotos = [
-    "../assets/bosque01.jpg",
-    "../assets/bosque02.jpg",
-    "../assets/bosque03.jpg",
-    "../assets/bosque04.jpg",
-    "../assets/bosque05.jpg",
-    "../assets/bosque06.jpg",
-    "../assets/bosque07.jpg",
-    "../assets/bosque08.jpg",
-    "../assets/bosque09.jpg",
-    "../assets/bosque10.jpg",
+    "./assets/bosque01.jpg",
+    "./assets/bosque02.jpg",
+    "./assets/bosque03.jpg",
+    "./assets/bosque04.jpg",
+    "./assets/bosque05.jpg",
+    "./assets/bosque06.jpg",
+    "./assets/bosque07.jpg",
+    "./assets/bosque08.jpg",
+    "./assets/bosque09.jpg",
+    "./assets/bosque10.jpg",
   ]
 
   
